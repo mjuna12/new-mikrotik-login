@@ -27,7 +27,8 @@ body{
     box-shadow:0 10px 30px rgba(16,24,40,0.12);
     overflow:hidden;
     display:grid;
-    grid-template-columns:1fr 460px;
+    /* left column: form 40%, right column: image/promo 60% */
+    grid-template-columns:40% 60%;
 }
 
 /* Left: form area */
